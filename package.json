@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "license": "MIT",
   "description": "Adds a Restart entry to the DSH Desktop system-tray menu.",
+  "homepage": "https://github.com/lyy-hast/dsh-tray-restart#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyy-hast/dsh-tray-restart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyy-hast/dsh-tray-restart/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -23,7 +32,9 @@
     "locale/*.json",
     "icon.svg",
     "tools/*.mjs",
-    "README.md"
+    "README.md",
+    "README.en.md",
+    "LICENSE"
   ],
   "scripts": {
     "test": "node test/patch.test.mjs",
