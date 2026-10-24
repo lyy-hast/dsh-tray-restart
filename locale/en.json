@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tray Restart",
+    "description": "Adds a Restart entry to the DSH Desktop system-tray menu."
+  }
+}

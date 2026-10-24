@@ -1,0 +1,43 @@
+{
+  "name": "@local/dsh-tray-restart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Adds a Restart entry to the DSH Desktop system-tray menu.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "desktop",
+    "tray"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./asar-patch": "./asar-patch.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "asar-patch.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "tools/*.mjs",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/patch.test.mjs",
+    "test:e2e": "node test/e2e.mjs",
+    "status": "node tools/tray-restart.mjs status --install",
+    "apply": "node tools/tray-restart.mjs apply --install",
+    "revert": "node tools/tray-restart.mjs revert --install"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

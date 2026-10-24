@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Tray Restart">
+  <rect x="2.5" y="2.5" width="27" height="27" rx="7.5" fill="#1f6feb" />
+  <path d="M16 8.5a7.5 7.5 0 1 0 7.28 9.3" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M16 8.5v0" fill="none" />
+  <path d="M21.6 5.6v6.2h-6.2" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Backups the patcher leaves beside an installation, never inside this repo.
+*.dsh-tray-restart.header
+*.dsh-tray-restart.json
+*.dsh-tray-restart.main.js

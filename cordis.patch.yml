@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-tray-restart
+      name: '@local/dsh-tray-restart'
