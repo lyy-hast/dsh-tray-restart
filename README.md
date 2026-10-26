@@ -334,7 +334,7 @@ node tools/tray-restart.mjs status --install "<安装目录>"
 
 ## 许可证
 
-[MIT](LICENSE) © 2026 刘永康（[lyy-hast](https://github.com/lyy-hast)）
+[MIT](LICENSE) © 2026 lyy（[lyy-hast](https://github.com/lyy-hast)）
 
 简单说：可以自由使用、修改、分发、商用，也可以放进自己的项目里；唯一的要求是保留版权声明与许可证全文，且作者不为此提供任何担保。插件会改写 DSH 桌面端安装目录里的 `app.asar`——这个动作**在你的机器上、由你授权**，请自行确认符合你所在环境的使用规定。
 

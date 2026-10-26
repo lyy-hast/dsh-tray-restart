@@ -334,7 +334,7 @@ Run against a real installation (shell `@deepseek-ai/dsh-desktop` `0.2.1-rc.3`, 
 
 ## License
 
-[MIT](LICENSE) © 2026 刘永康 ([lyy-hast](https://github.com/lyy-hast))
+[MIT](LICENSE) © 2026 lyy ([lyy-hast](https://github.com/lyy-hast))
 
 In short: use, modify, redistribute and sell it freely, and embed it in your own projects; the only requirement is to keep the copyright notice and the license text, and the author provides no warranty. The plugin rewrites `app.asar` inside your DSH Desktop installation — that happens **on your machine, with your authorization**, so make sure it is acceptable in your environment.
 
